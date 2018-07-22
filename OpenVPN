@@ -207,7 +207,7 @@ else
 	esac
 	echo ""
 	echo "Qual porta você deseja usar ?"
-	read -p "Port: " -e -i 8090 PORT
+	read -p "Port: " -e -i 1194 PORT
 	echo ""
 	echo "Qual DNS você deseja usar ?"
 	echo "   1) Sistema(Não Recomendado)"
@@ -216,7 +216,7 @@ else
 	echo "   4) NTT"
 	echo "   5) Hurricane Electric"
 	echo "   6) Verisign"
-	echo "   7) RNEOX DNS PERFORMANCE (Recomendado no Brasil)"
+	echo "   7) VINCYHOST DNS PERFORMANCE (Recomendado no Brasil)"
 	read -p "DNS [1-7]: " -e -i 7 DNS
 	echo ""
 	echo "Agora,digite o nome de seu primeiro usuario"
